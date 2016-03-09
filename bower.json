@@ -1,0 +1,18 @@
+{
+  "name": "bootstrap-html-snippets",
+  "description": "bootstrap snippets",
+  "main": "index.js",
+  "authors": [
+    "malkio <coding.malkio@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
