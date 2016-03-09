@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-html-snippets",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "bootstrap snippets",
   "main": "index.js",
   "scripts": {

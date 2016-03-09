@@ -1,18 +1,23 @@
 {
   "name": "bootstrap-html-snippets",
-  "description": "bootstrap snippets",
+  "description": "bootstrap html snippets",
   "main": "index.js",
   "authors": [
-    "malkio <coding.malkio@gmail.com>"
+    "malkio <coding.malkio@gmail.com"
   ],
   "license": "ISC",
   "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/malkio/bootstrap-html-snippets",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.1"
+  }
 }
