@@ -1,0 +1,118 @@
+.small-thumbnail .thumbnail {
+        position: relative;
+        padding: 0px;
+        margin-bottom: 20px;
+          -webkit-box-shadow:inset 0px 0px 0px 1px gray;
+        -moz-box-shadow:inset 0px 0px 0px 1px gray;
+        box-shadow:inset 0px 0px 0px 1px gray;
+    }
+
+      .small-thumbnail  .thumbnail:hover {
+            -webkit-box-shadow:inset 0px -2px 0px 1px gray;
+            -moz-box-shadow:inset 0px -2px 0px 1px gray;
+            box-shadow:inset 0px -2px 0px 1px gray;
+        }
+
+   .small-thumbnail .votes {
+        font-size: 47px;
+        color: #197BB5;
+        padding: 10px;
+    }
+
+   .small-thumbnail .thumbnail img {
+        width: 100%;
+    }
+
+
+
+.featured .featured-article {
+    width: 482px;
+    height: 350px;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.featured .featured-article .block-title {
+    /* Position & Box Model */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    /* background */
+    background: rgba(0,0,0,0.7);
+    /* Width/Height */
+    padding: .5em;
+    width: 100%;
+    /* Text color */
+    color: #fff;
+}
+
+.featured .featured-article .block-title h2 {
+    margin: 0;
+}
+
+/* Featured Articles List [BS3]
+--------------------------------------------
+* show the last 3 articles post
+*/
+
+.featured .main-list {
+    padding-left: .5em;
+}
+
+.featured .main-list .media {
+    padding-bottom: 1.1em;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.split-blog .blogShort{ border-bottom:1px solid #ddd;}
+.split-blog .add{background: #333; padding: 10%; height: 300px;}
+
+.split-blog .nav-sidebar {
+    width: 100%;
+    padding: 8px 0;
+    border-right: 1px solid #ddd;
+}
+.split-blog .nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.split-blog .nav-sidebar .active a {
+    cursor: default;
+    background-color: #34ca78;
+    color: #fff;
+}
+.split-blog .nav-sidebar .active a:hover {
+    background-color: #37D980;
+}
+.split-blog .nav-sidebar .text-overflow a,
+.split-blog .nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.split-blog .btn-blog {
+    color: #ffffff;
+    background-color: #37d980;
+    border-color: #37d980;
+    border-radius:0;
+    margin-bottom:10px
+}
+.split-blog .btn-blog:hover,
+.split-blog .btn-blog:focus,
+.split-blog .btn-blog:active,
+.split-blog .btn-blog.active,
+.split-blog .open .dropdown-toggle.btn-blog {
+    color: white;
+    background-color:#34ca78;
+    border-color: #34ca78;
+}
+ .split-blog h2{color:#34ca78;}
+ .margin10{margin-bottom:10px; margin-right:10px;}
+
+
